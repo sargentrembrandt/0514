@@ -4,11 +4,12 @@
     }
 }
 .full-width {
-            width: 100%;
+ width: 1000px;
+    margin: auto;
         }
         
         .fixed-width {
-            width: 1000px;
+            width: 980px;
             margin: auto;
         }
         
@@ -63,6 +64,11 @@
             text-decoration: none;
             color: #e2e2e2;
         }
+nav.menu a::after{
+    content: "";
+    border-bottom:2px solid #637eef;
+    display: block;
+}
 btn:hover{
     background-color: #eb7fff;
     color: aqua;
@@ -118,6 +124,7 @@ btn:hover{
             background-color: #333;
             color: #eee;
             text-decoration: none;
+            transition: all .3s;
         }
         
         .btn-inverse {
